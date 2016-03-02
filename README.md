@@ -1,2 +1,2 @@
 # my-scripts
-Simple scripts for usual tasks that make my life better and easier :shaved_ice:.
+Simple scripts for usual tasks. This makes my life better and easier :shaved_ice:.
