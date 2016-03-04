@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ -lm -o code code.cpp
