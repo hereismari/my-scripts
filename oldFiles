@@ -1,3 +1,6 @@
 #!/bin/bash
 # it receives the number of days a file is considered an old file
-find $PWD -name ".*" -prune -name 'a*' -o -print -atime $1
+
+find . \( ! -regex '.*/\..*' \) -not -atime -$1 -type f
+
+
