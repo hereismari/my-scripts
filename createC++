@@ -19,6 +19,7 @@ using namespace std;
 #define vpii vector<pair<int,int> >
 
 #define MAX 1000100  
+#define INF 1000000000
 
 int n, m, x, y;
 
