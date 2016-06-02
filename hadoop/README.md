@@ -10,5 +10,5 @@ These are configuration files ready to be copied and used, just be careful with 
 
 ### The installHadoop.sh file
 
-This is a resumed tutorial of how to install Hadoop, is more intuiteve/pratical.
+This is a summarized tutorial of how to install Hadoop, is more intuitive/pratical.
 
