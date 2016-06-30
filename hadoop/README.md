@@ -2,7 +2,7 @@
 
 These are files to help in the Hadoop installation.
 Based on [this
-tutorial](https://docs.google.com/document/d/18sUvsu6Rvkt0jodKn5q1rI8fqmZgABFljxeDgey-EYk/edit?usp=sharing).
+tutorial](https://docs.google.com/document/d/18sUvsu6Rvkt0jodKn5q1rI8fqmZgABFljxeDgey-EYk/edit?usp=sharing)(portuguese only).
 
 ### The xml files
 
@@ -10,5 +10,5 @@ These are configuration files ready to be copied and used, just be careful with 
 
 ### The installHadoop.sh file
 
-This is a more resumed and practice tutorial of how to install Hadoop, is more visual and shows how to do things in practice.
+This is a summarized tutorial of how to install Hadoop, is more intuitive/pratical.
 
