@@ -1,3 +1,7 @@
 #!/bin/bash
 
-g++ -lm -o code code.cpp
+if [ -z "$1" ]; then
+    g++ -lm -o code code.cpp
+else 
+    g++ -lm -o code $1
+fi
