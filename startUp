@@ -1,0 +1,33 @@
+#!/bin/sh
+
+# This script has the main goal to initialize some applications at
+# the system startup.
+
+# In order to do so you must create an init script, you
+# can do it manually, but the first time the script is executed
+# it will create the init script for you!
+# Make sure to execute it the first as sudo
+# and everything will be just fine :)
+
+#init_startup="/etc/init.d/startUp" # init script
+#path=$(pwd)
+
+# If init script does not exist, we create it!
+#if [ ! -f $init_startup ]
+#then
+#    # create init script that executes this script
+#    touch $init_startup
+#    echo "#!/bin/sh" >> $init_startup
+#    echo "$path/startUp" >> $init_startup
+#    # configure script so it's executed at startup
+#    chmod ugo+x $init_startup
+#    update-rc.d startUp defaults
+#else 
+
+    wait 100s # LET THE FUC*ING SYSTEM BREATH, PEOPLE
+    touch /home/mari/test.txt
+    # The apps I always use (AND LOVE)
+    google-chrome &
+    spotify &
+    weechat &
+#fi
