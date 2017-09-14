@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# this creates a C++ with my micros to competitive programming
+# this creates a C++ with my macros to competitive programming
 
 if [ ! -e code.cpp ]; then
 
