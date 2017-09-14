@@ -10,4 +10,7 @@ Just run `./run_anywhere`
 
 ## My VIM configuration
 
-http://moelove.info/vim/
+VIM conf: http://moelove.info/vim/
+
+VIM cheatsheet: https://gist.github.com/m3nd3s/3959966
+
