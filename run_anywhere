@@ -1,0 +1,8 @@
+#!/bin/bash
+
+dir=$(pwd)
+
+echo '#added by'$dir'/run_anywhere' >> ~/.bashrc  # adding a comment to bashrc
+echo 'export PATH="'$dir'/:$PATH"' >> ~/.bashrc # adding this path to PATH
+
+
