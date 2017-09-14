@@ -12,5 +12,5 @@ Just run `./run_anywhere`
 
 VIM conf: http://moelove.info/vim/
 
-VIM cheatsheet: https://gist.github.com/m3nd3s/3959966
+VIM cheatsheet: https://gist.github.com/mari-linhares/fb65e7cb5a30b723beb9c2cffd77ab08
 
