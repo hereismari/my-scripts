@@ -1,6 +1,8 @@
 #!/bin/bash
-# it receives the number of days a file is considered an old file
+
+# Shows the old files in your system.
+# It receives the number of days a file is considered an old file.
+# A file will be considered old if has not be used for $1 days.
 
 find . \( ! -regex '.*/\..*' \) -not -atime -$1 -type f
-
 

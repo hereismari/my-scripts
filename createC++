@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# this creates a C++ with my micros to competitive programming
+
 if [ ! -e code.cpp ]; then
 
 echo '#include <bits/stdc++.h> 

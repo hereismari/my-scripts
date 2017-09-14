@@ -1,7 +1,15 @@
 #!/bin/bash
 
+# compile a C++11 code.
+
+# You can pass the name of the file as argument,
+# if you don't do this it will try to compile
+# a file named code.cpp
+
 if [ -z "$1" ]; then
-    g++ -lm -o code code.cpp
+    g++ -std=c++11 -lm -o code code.cpp
 else 
-    g++ -lm -o code $1
+    g++ -std=c++11 -lm -o code $1
 fi
+
+
